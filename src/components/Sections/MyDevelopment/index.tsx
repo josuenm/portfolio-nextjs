@@ -137,7 +137,7 @@ export function MyDevelopment() {
                 olho no
                 <span>Tailwind</span>. Indo mais além eu uso <span>React</span>{" "}
                 e <span>Next.js</span> para criações de grandes interfaces,
-                também gosto de usar o <span>Chakra-UI</span>, porque me traz
+                também gosto de usar o <span>Chakra-UI</span> porque me traz
                 muita produtividade. Fazer um bom trabalho no front-end para mim
                 é se preocupar com a performance, feedback visual para o
                 usuário, autenticação segura e abusar de técnicas para criação
@@ -149,12 +149,13 @@ export function MyDevelopment() {
               <InfoTitle>Mobile com React Native</InfoTitle>
 
               <InfoDescription>
-                Com <span>React Native</span> eu uso na o <span>Expo</span> e já
-                usei o <span>Native Base</span> que é uma cópia do{" "}
-                <span>Chakra-UI</span> que como eu disse me traz muita
-                produtividade, e com o <span>Native Base</span> foi igual. Ainda
-                não sou um expert em desenvolvimento mobile mas consigo contruir
-                interfaces legais e autenticação de usuário.
+                No desenvolvimento mobile eu uso <span>React Native</span> e{" "}
+                <span>Expo</span> e já usei o <span>Native Base</span> que é uma
+                cópia do <span>Chakra-UI</span> que como eu disse me traz muita
+                produtividade, e com o <span>Native Base</span> não foi
+                diferente. Ainda não sou um expert em desenvolvimento mobile mas
+                consigo contruir interfaces de ótima qualidade e até fazer uma
+                autenticação de usuário usando o Async Storage.
               </InfoDescription>
             </InfoSet>
 
@@ -163,14 +164,13 @@ export function MyDevelopment() {
 
               <InfoDescription>
                 O back-end nunca foi o meu foco, mas ultimamente tenho gostado
-                bastante e estou progredindo mais. Tenho tentado aplicar o
+                bastante e estou progredindo mais. Tenho tentado aplicar o{" "}
                 <span>S.O.L.I.D.</span> em todas minhas aplicações que começo,
                 isso me fez pensar de uma outra forma deixando a aplicação com
                 uma cara organizada. Para fazer tudo isso eu utilizo o{" "}
-                <span>Express</span> com o <span>Node</span>
-                porque é simples, mas estou de olho no <span>
-                  Adonis
-                </span> e <span>Nest</span> que são bem mais robustos.
+                <span>Express</span> com o <span>Node</span> porque é simples,
+                mas estou de olho no <span>Adonis</span> e <span>Nest</span> que
+                são bem mais robustos.
               </InfoDescription>
             </InfoSet>
           </InfoContainer>
