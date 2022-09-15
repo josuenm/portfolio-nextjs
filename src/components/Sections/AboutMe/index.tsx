@@ -13,7 +13,7 @@ import {
 
 export const AboutMe = () => {
   return (
-    <Container>
+    <Container id="aboutMe">
       <SafeArea>
         <Checkpoint
           title="Sobre mim"
