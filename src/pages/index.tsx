@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { Header } from "src/components/Header";
+import { AboutMe } from "src/components/Sections/AboutMe";
 import { Footer } from "src/components/Sections/Footer";
 import { MyDevelopment } from "src/components/Sections/MyDevelopment";
 import { MyNetwork } from "src/components/Sections/MyNetwork";
@@ -37,6 +38,7 @@ const Home: NextPage = () => {
 
       <Header />
       <Presentation />
+      <AboutMe />
       <MyDevelopment />
       <MyNetwork />
       <Projects />
