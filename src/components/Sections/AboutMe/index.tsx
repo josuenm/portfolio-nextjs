@@ -15,7 +15,11 @@ export const AboutMe = () => {
   return (
     <Container>
       <SafeArea>
-        <Checkpoint title="Sobre mim" phrase="A maquina humana" chapter={1} />
+        <Checkpoint
+          title="Sobre mim"
+          phrase="A mente por trás de tudo"
+          chapter={1}
+        />
         <Content>
           <Info>
             <Title>Sobre mim</Title>

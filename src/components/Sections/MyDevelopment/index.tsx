@@ -103,21 +103,22 @@ export function MyDevelopment() {
           chapter={2}
         />
 
-        <SectionTitle title="A minha forma desenvolvimento" />
+        <SectionTitle title="A minha forma de desenvolver" />
 
         <DescriptionContainer>
           <DescriptionText>
-            Adoro usar o <span>Figma</span> para criar <span>SVGs</span> e
-            planejar o layout da aplicação, tenho avançado bastante com ele.
-            Também estou fazendo o uso do <span>Typescript</span> em todas as
-            aplicações que crio, já não consigo ficar sem ele.
+            Estou constantemente aprendendo, uma das tecnologias que estou
+            aprendendo no momento é um pouco de <span>Tailwind</span> e{" "}
+            <span>PostgreSQL</span>. Gostei bastante do <span>Tailwind</span>{" "}
+            porém o código fica muito verboso. E também gostei bastante do{" "}
+            <span>PostgresSQL</span> e quero usar mais vezes.
           </DescriptionText>
 
           <DescriptionText>
-            No back-end estou aprendendo mais sobre o <span>Docker</span>,
-            grandes aplicações tem vários banco de dados e até vários back-ends,
-            com o <span>Docker</span> eu consigo deixar tudo isso rodando em
-            segundo plano sem precisar abrir vários terminais.
+            As vezes tiro um tempo também para investir tempo em outras
+            tecnologias como o <span>React Native</span>. Mas estou planejando
+            começar a usar o <span>Electron</span> e <span>Nest.js</span> também
+            para um projeto que preciso tirar do papel.
           </DescriptionText>
         </DescriptionContainer>
 
@@ -141,7 +142,8 @@ export function MyDevelopment() {
                 muita produtividade. Fazer um bom trabalho no front-end para mim
                 é se preocupar com a performance, feedback visual para o
                 usuário, autenticação segura e abusar de técnicas para criação
-                de interfaces modernas.
+                de interfaces modernas. Também utilizo o Figma, nele consigo
+                planejar layouts antes de codar e criar SVGs incríveis.
               </InfoDescription>
             </InfoSet>
 
@@ -169,8 +171,8 @@ export function MyDevelopment() {
                 isso me fez pensar de uma outra forma deixando a aplicação com
                 uma cara organizada. Para fazer tudo isso eu utilizo o{" "}
                 <span>Express</span> com o <span>Node</span> porque é simples,
-                mas estou de olho no <span>Adonis</span> e <span>Nest</span> que
-                são bem mais robustos.
+                mas estou planejando começar a usar o <span>Nest</span> que é
+                bem mais robusto.
               </InfoDescription>
             </InfoSet>
           </InfoContainer>
