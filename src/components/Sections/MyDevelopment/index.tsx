@@ -100,7 +100,7 @@ export function MyDevelopment() {
         <Checkpoint
           title="Desenvolvimento"
           phrase="Perfeito é melhor que feito"
-          chapter={1}
+          chapter={2}
         />
 
         <SectionTitle title="A minha forma desenvolvimento" />
