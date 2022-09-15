@@ -95,6 +95,7 @@ export function Contact() {
 
   return (
     <Container>
+      <Background onClick={handleClose} />
       <ModalContainer>
         <Form onSubmit={handleSubmit(onSubmit)}>
           <FormGroup>
