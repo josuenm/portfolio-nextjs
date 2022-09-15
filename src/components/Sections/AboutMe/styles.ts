@@ -49,6 +49,10 @@ export const ProfileContainer = styled.div`
   position: relative;
   width: 400px;
   height: 400px;
+  background-color: ${({ theme }) => theme.colors.gray60};
+  border: 1px solid ${({ theme }) => theme.colors.gray50};
+  border-radius: 0.5rem;
+  overflow: hidden;
 
   @media screen and (max-width: 575.98px) {
     width: 100%;
@@ -57,7 +61,5 @@ export const ProfileContainer = styled.div`
 `;
 
 export const ProfileImage = styled(Image)`
-  border-radius: 0.5rem;
-  border: 1px solid ${({ theme }) => theme.colors.gray50};
   filter: grayscale(100%);
 `;
