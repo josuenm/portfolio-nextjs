@@ -35,7 +35,7 @@ export const AboutMe = () => {
             <Description>
               Aprendi tudo sozinho, foi díficil mas a cada problema solucionado,
               a cada interface concluída eu reconhecia que eu estava pegando o
-              jeito. Hoje em dia já sei muita coisa e consigo ajudar outras
+              jeito. Hoje em dia já sei muita coisa e consigo ajudar outros
               desenvolvedores que estão na área.
             </Description>
           </Info>
