@@ -39,10 +39,7 @@ export function MyNetwork() {
 
         <SectionTitle title="Minha rede profissional" />
 
-        <Description>
-          Aqui esta minhas redes profissionais, sempre dou prefêrencia ao{" "}
-          <span>LinkedIn</span>.
-        </Description>
+        <Description>Aqui estão minhas redes profissionais.</Description>
 
         <MainContainer>
           <Comments>
