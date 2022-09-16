@@ -1,4 +1,6 @@
+import Logo from "src/assets/icons/Logo.svg";
 import ProfilePicture from "src/assets/images/profile.jpg";
+import LogoBrand from "src/assets/rounded_brand.svg";
 import { Checkpoint } from "src/components/Checkpoint";
 import { SafeArea } from "src/components/SafeArea";
 import {
@@ -6,6 +8,9 @@ import {
   Content,
   Description,
   Info,
+  LogoBrandContainer,
+  LogoBrandImage,
+  LogoImage,
   ProfileContainer,
   ProfileImage,
   Title,
@@ -45,6 +50,16 @@ export const AboutMe = () => {
           </Info>
 
           <ProfileContainer>
+            <LogoBrandContainer>
+              <LogoImage
+                src={Logo}
+                alt="Logo"
+                layout="fixed"
+                width={50}
+                height={50}
+              />
+              <LogoBrandImage src={LogoBrand} alt="Logo Brand" layout="fill" />
+            </LogoBrandContainer>
             <ProfileImage
               src={ProfilePicture}
               alt="Profile image"

@@ -52,7 +52,6 @@ export const ProfileContainer = styled.div`
   background-color: ${({ theme }) => theme.colors.gray60};
   border: 1px solid ${({ theme }) => theme.colors.gray50};
   border-radius: 0.5rem;
-  overflow: hidden;
 
   @media screen and (max-width: 575.98px) {
     width: 100%;
@@ -62,4 +61,46 @@ export const ProfileContainer = styled.div`
 
 export const ProfileImage = styled(Image)`
   filter: grayscale(100%);
+`;
+
+export const LogoBrandImage = styled(Image)`
+  width: 150px;
+  height: 150px;
+  backdrop-filter: blur(10px);
+  border-radius: 50%;
+
+  animation: rotate 10s infinite linear;
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+`;
+
+export const LogoImage = styled(Image)`
+  z-index: 3;
+`;
+
+export const LogoBrandContainer = styled.div`
+  position: absolute;
+  left: -6rem;
+  bottom: -3rem;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 575.98px) {
+    width: 120px;
+    height: 120px;
+    left: 0;
+    bottom: -4rem;
+  }
 `;
