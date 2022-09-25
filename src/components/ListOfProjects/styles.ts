@@ -26,9 +26,8 @@ export const InfoContent = styled.div`
   top: 15rem;
 
   @media (max-width: 767.98px) {
-    top: 5rem;
-    transform: translate(160px, 240px) rotate(-90deg);
-    padding: 0;
+    top: 1rem;
+    transform: translate(115px, 240px) rotate(-90deg);
     display: flex;
     gap: 0.5rem;
   }
@@ -53,6 +52,7 @@ export const InfoSubtitle = styled.h3`
 
   @media (max-width: 767.98px) {
     order: 1;
+    font-size: 1.1rem;
   }
 
   @media (min-width: 767.99px) and (max-width: 991.98px) {
@@ -64,7 +64,7 @@ export const InfoTitle = styled.h2`
   font-size: 3rem;
 
   @media (max-width: 767.98px) {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 
   @media (min-width: 767.99px) and (max-width: 991.98px) {
