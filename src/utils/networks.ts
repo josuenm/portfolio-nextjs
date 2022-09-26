@@ -11,7 +11,7 @@ const networks = [
     id: 2,
     name: "Behance",
     message:
-      "Não posto muita coisa por lá, mas caso queira vez, ai esta. Clique abaixo e acesse.",
+      "Não posto muita coisa por lá, mas caso queira ver, ai esta. Clique abaixo e acesse.",
     url: "https://www.behance.net/josumendona",
     isDownloadable: false,
   },
