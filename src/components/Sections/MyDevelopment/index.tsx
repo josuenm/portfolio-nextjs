@@ -107,7 +107,7 @@ export function MyDevelopment() {
 
         <DescriptionContainer>
           <DescriptionText>
-              Atualmente estou usando muito o <span>Neovim</span> como editor de código simplesmente pela produtividade, mas ainda sim o <span>VS Code</span> continua sempre uma opção.
+              Atualmente estou usando o <span>Neovim</span> e o <span>VS Code</span> como editor de código, meu <span>Neovim</span> é totalmente modificado e eu gosto disso mas ainda faço muita coisa com o <span>VS Code</span> por ser mais produtivo para mim no momento.
           </DescriptionText>
 
           <DescriptionText>
