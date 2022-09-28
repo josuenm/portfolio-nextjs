@@ -46,6 +46,19 @@ export const ListOfProjects = () => {
     },
     {
       id: "2",
+      title: "Dashvelar",
+      imageUrl: "dashvelar.png",
+      stack:
+        "React.js, Vite, Typescript, Tailwind, Syncfusion, React Router, React Icons",
+      website: "https://josuenm-dashvelar.web.app",
+      github: "https://github.com/josuenm/dashvelar",
+      isFreelance: false,
+      platform: "Web",
+      description:
+        "Lindo dashboard feito de forma totalmente produtiva, os componentes estão funcionais e responsivos!",
+    },
+    {
+      id: "3",
       title: "Pretty Form",
       imageUrl: "pretty-form-thumb.jpg",
       stack: "React.js, Typescript, Styled-Components",
@@ -57,7 +70,7 @@ export const ListOfProjects = () => {
         "Esse lindo formulário foi para concluir oque eu sei sobre react-hook-form e yup",
     },
     {
-      id: "3",
+      id: "4",
       title: "Netflix Clone",
       stack: "React.js, SASS",
       imageUrl: "netflixclone-thumb.jpg",
@@ -69,7 +82,7 @@ export const ListOfProjects = () => {
         "Essa aplicação é um clone do Linkedin, foi usado React e firebase",
     },
     {
-      id: "4",
+      id: "5",
       title: "Linkedin Clone",
       imageUrl: "linkedinclone-thumb.jpg",
       stack: "React.js, Javascript, SASS, Firebase",
@@ -81,7 +94,7 @@ export const ListOfProjects = () => {
         "Essa aplicação é um clone do Linkedin, foi usado React e firebase",
     },
     {
-      id: "5",
+      id: "6",
       title: "Moldes mágicos",
       imageUrl: "magic-molds-thumb.jpg",
       stack: "HTML, SASS, Javascript",
@@ -93,7 +106,7 @@ export const ListOfProjects = () => {
         "Essa foi uma landing page focada em vendas para o público com mais idade, então o foco foi fazer algo simples. Atualmente o info-produtor deste produto esta tendo um ótimo lucro",
     },
     {
-      id: "6",
+      id: "7",
       title: "Simplesmente Amigurumi",
       imageUrl: "simply-amigurumi-thumb.jpg",
       stack: "HTML, SASS, Javascript",
@@ -105,7 +118,7 @@ export const ListOfProjects = () => {
         'Essa Landing Page é focada em vendas dentro e fora do Brasil, foi modernizada como o cliente pediu mas sem deixar de ser simples porquê o público alvo tem mais idade. A Landing Page existe tanto na versão Português como na versão em Espanhol, para alterar apenas clique no link da página retire a rota "/pt" e coloque "/es"',
     },
     {
-      id: "7",
+      id: "8",
       title: "Pacote de moldes",
       imageUrl: "molds-pack-thumb.jpg",
       stack: "HTML, SASS, Javascript",
