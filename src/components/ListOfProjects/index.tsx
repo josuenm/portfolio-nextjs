@@ -170,11 +170,15 @@ export const ListOfProjects = () => {
                 </ProjectInfoOption>
                 <ProjectInfoOption>
                   <Badge>Website</Badge>
-                  <Link>{project.website}</Link>
+                  <Link href={project.website} target="_blank">
+                    {project.website}
+                  </Link>
                 </ProjectInfoOption>
                 <ProjectInfoOption>
                   <Badge>Github</Badge>
-                  <Link>{project.github}</Link>
+                  <Link href={project.github} target="_blank">
+                    {project.github}
+                  </Link>
                 </ProjectInfoOption>
               </ProjectInfo>
             </Project>
