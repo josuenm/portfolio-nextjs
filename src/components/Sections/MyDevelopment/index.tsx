@@ -107,11 +107,16 @@ export function MyDevelopment() {
 
         <DescriptionContainer>
           <DescriptionText>
-              Atualmente estou usando o <span>Neovim</span> e o <span>VS Code</span> como editor de código, meu <span>Neovim</span> é totalmente modificado e eu gosto disso mas ainda faço muita coisa com o <span>VS Code</span> por ser mais produtivo para mim no momento.
+            Atualmente estou usando o <span>Neovim</span> e o{" "}
+            <span>VS Code</span> como editor de código, meu <span>Neovim</span>{" "}
+            é totalmente modificado e eu gosto disso mas ainda faço muita coisa
+            com o <span>VS Code</span> por ser mais produtivo para mim no
+            momento.
           </DescriptionText>
 
           <DescriptionText>
-              No meu tempo livre estou aprendendo sobre <span>Tailwind</span> e <span>MySQL</span>, também estou usando muito <span>Electron</span> em um projeto privado então estou quebrando a cabeça e aprendendo bastante com isso.
+            No meu tempo livre estou aprendendo <span>MySQL</span>, também estou
+            usando muito <span>Electron</span> em um projeto privado.
           </DescriptionText>
         </DescriptionContainer>
 
@@ -127,14 +132,14 @@ export function MyDevelopment() {
               <InfoDescription>
                 A minha stack básica do front-end web é{" "}
                 <span>HTML, CSS, SASS, Javascript</span> ou{" "}
-                <span>Typescript</span> e <span>Bootstrap</span> mas estou de
-                olho no <span>Tailwind</span>. Indo mais além eu uso <span>React</span>{" "}
-                e <span>Next.js</span> para criações de grandes interfaces,
-                também gosto de usar o <span>Chakra-UI</span> porque me traz
+                <span>Typescript</span> e <span>Bootstrap</span>. Além disso eu
+                uso <span>React</span> e <span>Next.js</span> para criações de
+                grandes interfaces, também gosto de usar o{" "}
+                <span>Chakra-UI</span> e <span>Tailwind</span> porque me traz
                 muita produtividade. Fazer um bom trabalho no front-end para mim
                 é se preocupar com a performance, feedback visual para o
-                usuário, autenticação segura e usar técnicas para criação
-                de interfaces modernas. Também utilizo o Figma, nele consigo
+                usuário, autenticação segura e usar técnicas para criação de
+                interfaces modernas. Também utilizo o Figma, nele consigo
                 planejar layouts antes de codar e criar SVGs incríveis.
               </InfoDescription>
             </InfoSet>
@@ -145,9 +150,11 @@ export function MyDevelopment() {
               <InfoDescription>
                 No desenvolvimento mobile eu uso <span>React Native</span> com e{" "}
                 <span>Expo</span> e já usei o <span>Native Base</span> que é uma
-                muito parecido com o <span>Chakra-UI</span> que como eu disse me traz muita
-                produtividade, e com o <span>Native Base</span> não foi
-                diferente, mas mesmo assim eu reconheço que o <span>Native Base</span> não é a melhor opção para performance do app. Ainda não sou um expert em desenvolvimento mobile mas
+                muito parecido com o <span>Chakra-UI</span> que como eu disse me
+                traz muita produtividade, e com o <span>Native Base</span> não
+                foi diferente, mas mesmo assim eu reconheço que o{" "}
+                <span>Native Base</span> não é a melhor opção para performance
+                do app. Ainda não sou um expert em desenvolvimento mobile mas
                 consigo contruir interfaces de ótima qualidade e até fazer uma
                 autenticação de usuário usando o Async Storage.
               </InfoDescription>
@@ -159,9 +166,11 @@ export function MyDevelopment() {
               <InfoDescription>
                 O back-end nunca foi o meu foco, mas ultimamente tenho gostado
                 bastante e estou progredindo mais. Tenho tentado aplicar o{" "}
-                <span>S.O.L.I.D.</span> em todas minhas aplicações,
-                isso me fez pensar de uma outra forma colocando cada responsabilidade no seu lugar, isso me trouxe organização e fácil manutenção no código. Para fazer tudo isso eu utilizo o{" "}
-                <span>Express</span> com o <span>Node</span>.
+                <span>S.O.L.I.D.</span> em todas minhas aplicações, isso me fez
+                pensar de uma outra forma colocando cada responsabilidade no seu
+                lugar, isso me trouxe organização e fácil manutenção no código.
+                Para fazer tudo isso eu utilizo o <span>Express</span> com o{" "}
+                <span>Node</span>.
               </InfoDescription>
             </InfoSet>
           </InfoContainer>
