@@ -109,17 +109,24 @@ export const IsFreelanceContainer = styled.div`
   position: absolute;
   top: 0;
   left: 1rem;
+  z-index: 2;
   padding: 0.25rem 1rem;
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
-  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
+  background-color: #101f15;
 `;
 
 export const IsFreelanceTitle = styled.span`
   font-size: 1.1rem;
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
+  font-weight: ${({ theme }) => theme.fontWeights.medium};
+  color: #9ae6b4;
+`;
+
+export const EmptyOption = styled.p`
+  font-size: 0.9rem;
+  color: #9ae6b4;
 `;
 
 export const ProjectImageContainer = styled.div`
