@@ -109,14 +109,15 @@ export function MyDevelopment() {
           <DescriptionText>
             Atualmente estou usando o <span>Neovim</span> e o{" "}
             <span>VS Code</span> como editor de código, meu <span>Neovim</span>{" "}
-            é totalmente modificado e eu gosto disso mas ainda faço muita coisa
-            com o <span>VS Code</span> por ser mais produtivo para mim no
+            é totalmente modificado e eu gosto disso mas ainda faço praticamente
+            tudo com o <span>VS Code</span> por ser mais produtivo para mim no
             momento.
           </DescriptionText>
 
           <DescriptionText>
-            No meu tempo livre estou aprendendo <span>MySQL</span>, também estou
-            usando muito <span>Electron</span> em um projeto privado.
+            No meu tempo livre estou aprendendo <span>MySQL</span> e{" "}
+            <span>TypeORM</span>. Também estou usando <span>Electron</span> em
+            um repositório privado.
           </DescriptionText>
         </DescriptionContainer>
 
@@ -139,8 +140,8 @@ export function MyDevelopment() {
                 muita produtividade. Fazer um bom trabalho no front-end para mim
                 é se preocupar com a performance, feedback visual para o
                 usuário, autenticação segura e usar técnicas para criação de
-                interfaces modernas. Também utilizo o Figma, nele consigo
-                planejar layouts antes de codar e criar SVGs incríveis.
+                interfaces modernas. Também utilizo o Figma, nele consigo criar
+                SVGs incríveis e planejar layouts antes de codar.
               </InfoDescription>
             </InfoSet>
 
@@ -148,15 +149,16 @@ export function MyDevelopment() {
               <InfoTitle>Mobile com React Native</InfoTitle>
 
               <InfoDescription>
-                No desenvolvimento mobile eu uso <span>React Native</span> com e{" "}
-                <span>Expo</span> e já usei o <span>Native Base</span> que é uma
-                muito parecido com o <span>Chakra-UI</span> que como eu disse me
-                traz muita produtividade, e com o <span>Native Base</span> não
-                foi diferente, mas mesmo assim eu reconheço que o{" "}
-                <span>Native Base</span> não é a melhor opção para performance
-                do app. Ainda não sou um expert em desenvolvimento mobile mas
-                consigo contruir interfaces de ótima qualidade e até fazer uma
-                autenticação de usuário usando o Async Storage.
+                No desenvolvimento mobile eu uso <span>React Native</span> com{" "}
+                <span>Expo</span> e já usei o <span>Native Base</span> que é
+                praticamente uma cópia do <span>Chakra-UI</span> que como eu
+                disse me traz muita produtividade, e com o{" "}
+                <span>Native Base</span> não foi diferente, mas mesmo assim eu
+                reconheço que o <span>Native Base</span> não é a melhor opção
+                para performance do app. Ainda não sou um expert em
+                desenvolvimento mobile mas consigo contruir interfaces de ótima
+                qualidade e até fazer uma autenticação de usuário usando o Async
+                Storage.
               </InfoDescription>
             </InfoSet>
 
@@ -166,11 +168,10 @@ export function MyDevelopment() {
               <InfoDescription>
                 O back-end nunca foi o meu foco, mas ultimamente tenho gostado
                 bastante e estou progredindo mais. Tenho tentado aplicar o{" "}
-                <span>S.O.L.I.D.</span> em todas minhas aplicações, isso me fez
-                pensar de uma outra forma colocando cada responsabilidade no seu
-                lugar, isso me trouxe organização e fácil manutenção no código.
-                Para fazer tudo isso eu utilizo o <span>Express</span> com o{" "}
-                <span>Node</span>.
+                <span>S.O.L.I.D.</span>, isso me fez pensar de uma outra forma
+                colocando cada responsabilidade no seu lugar, isso me trouxe
+                organização e fácil manutenção no código. Para fazer tudo isso
+                eu utilizo o <span>Express</span> com o <span>Node</span>.
               </InfoDescription>
             </InfoSet>
           </InfoContainer>
