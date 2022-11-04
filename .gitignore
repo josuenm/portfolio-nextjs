@@ -9,3 +9,7 @@
 .vercel
 
 .next
+
+
+# yarn
+yarn-error.log
