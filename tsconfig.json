@@ -21,9 +21,9 @@
       "src/styles/*": ["./src/styles/*"],
       "src/assets/*": ["./src/assets/*"],
       "src/utils/*": ["./src/utils/*"],
-      "src/contexts/*": ["./src/contexts/*"],
+      "src/contexts/*": ["./src/contexts/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.js"],
   "exclude": ["node_modules"]
 }
