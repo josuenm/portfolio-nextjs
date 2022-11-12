@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 
 interface SafeAreaProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 export function SafeArea({ children }: SafeAreaProps) {
