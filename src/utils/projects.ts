@@ -1,20 +1,20 @@
 export const projects = [
+  // {
+  //   id: "1",
+  //   imageUrl: "validapix-thumb.jpg",
+  //   title: "Valida Pix - Dashboard",
+  //   description:
+  //     "Dashboard usado por franquias da Adidas e Reserva entre outras. O dashboard é apenas um MVP, mas é um belo MVP. Tudo esta fluído e animado sem perder performance. Na tabela de compradores é possível personalizar as colunas da tabela na ordem que quiser, isso foi feito com drag and drop. Os Gráficos foram feitos em React Charts.",
+  //   stack: "ReactJS, Javascript, Tailwind",
+  //   platform: "Web",
+  //   website: "",
+  //   github: "",
+  //   noRepo: "Repositório privado. Entre em contato para mais detalhes",
+  //   noWebsite: "Website privado. Entre em contato para mais detalhes",
+  //   isFreelance: true,
+  // },
   {
     id: "1",
-    imageUrl: "validapix-thumb.jpg",
-    title: "Valida Pix - Dashboard",
-    description:
-      "Dashboard usado por franquias da Adidas e Reserva entre outras. O dashboard é apenas um MVP, mas é um belo MVP. Tudo esta fluído e animado sem perder performance. Na tabela de compradores é possível personalizar as colunas da tabela na ordem que quiser, isso foi feito com drag and drop. Os Gráficos foram feitos em React Charts.",
-    stack: "ReactJS, Javascript, Tailwind",
-    platform: "Web",
-    website: "",
-    github: "",
-    noRepo: "Repositório privado. Entre em contato para mais detalhes",
-    noWebsite: "Website privado. Entre em contato para mais detalhes",
-    isFreelance: true,
-  },
-  {
-    id: "2",
     imageUrl: "purplenotes-thumb.jpg",
     title: "Purple Notes",
     description:
@@ -29,7 +29,7 @@ export const projects = [
     noWebsite: "",
   },
   {
-    id: "3",
+    id: "2",
     title: "Dashvelar",
     imageUrl: "dashvelar.png",
     stack:
@@ -44,7 +44,7 @@ export const projects = [
       "Lindo dashboard feito de forma totalmente produtiva, os componentes estão funcionais e responsivos!",
   },
   {
-    id: "4",
+    id: "3",
     title: "Pretty Form",
     imageUrl: "pretty-form-thumb.jpg",
     stack: "React.js, Typescript, Styled-Components",
@@ -58,7 +58,7 @@ export const projects = [
       "Esse lindo formulário foi para concluir oque eu sei sobre react-hook-form e yup",
   },
   {
-    id: "5",
+    id: "4",
     title: "Netflix Clone",
     stack: "React.js, SASS",
     imageUrl: "netflixclone-thumb.jpg",
@@ -72,7 +72,7 @@ export const projects = [
       "Essa aplicação é um clone do Linkedin, foi usado React e firebase",
   },
   {
-    id: "6",
+    id: "5",
     title: "Linkedin Clone",
     imageUrl: "linkedinclone-thumb.jpg",
     stack: "React.js, Javascript, SASS, Firebase",
@@ -86,7 +86,7 @@ export const projects = [
       "Essa aplicação é um clone do Linkedin, foi usado React e firebase",
   },
   {
-    id: "7",
+    id: "6",
     title: "Moldes mágicos",
     imageUrl: "magic-molds-thumb.jpg",
     stack: "HTML, SASS, Javascript",
@@ -100,7 +100,7 @@ export const projects = [
       "Essa foi uma landing page focada em vendas para o público com mais idade, então o foco foi fazer algo simples. Atualmente o info-produtor deste produto esta tendo um ótimo lucro",
   },
   {
-    id: "8",
+    id: "7",
     title: "Simplesmente Amigurumi",
     imageUrl: "simply-amigurumi-thumb.jpg",
     stack: "HTML, SASS, Javascript",
@@ -114,7 +114,7 @@ export const projects = [
       'Essa Landing Page é focada em vendas dentro e fora do Brasil, foi modernizada como o cliente pediu mas sem deixar de ser simples porquê o público alvo tem mais idade. A Landing Page existe tanto na versão Português como na versão em Espanhol, para alterar apenas clique no link da página retire a rota "/pt" e coloque "/es"',
   },
   {
-    id: "9",
+    id: "8",
     title: "Pacote de moldes",
     imageUrl: "molds-pack-thumb.jpg",
     stack: "HTML, SASS, Javascript",
