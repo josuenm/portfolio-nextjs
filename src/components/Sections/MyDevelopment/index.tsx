@@ -115,9 +115,10 @@ export function MyDevelopment() {
           </DescriptionText>
 
           <DescriptionText>
-            No meu tempo livre estou aprendendo <span>MySQL</span> e{" "}
-            <span>TypeORM</span>. Também estou usando <span>Electron</span> em
-            um repositório privado.
+            No meu tempo livre eu e uma equipe estamos desenvolvendo uma
+            aplicação web, backend, mobile usando <span>React.js</span>,{" "}
+            <span>Typescript</span>, <span>Node.js</span>,{" "}
+            <span>React Native</span> e muito mais.
           </DescriptionText>
         </DescriptionContainer>
 

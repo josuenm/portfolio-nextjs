@@ -14,7 +14,7 @@ export const projects = [
   //   isFreelance: true,
   // },
   {
-    id: "1",
+    id: "2",
     imageUrl: "purplenotes-thumb.jpg",
     title: "Purple Notes",
     description:
@@ -29,7 +29,7 @@ export const projects = [
     noWebsite: "",
   },
   {
-    id: "2",
+    id: "3",
     title: "Dashvelar",
     imageUrl: "dashvelar.png",
     stack:
@@ -44,7 +44,7 @@ export const projects = [
       "Lindo dashboard feito de forma totalmente produtiva, os componentes estão funcionais e responsivos!",
   },
   {
-    id: "3",
+    id: "4",
     title: "Pretty Form",
     imageUrl: "pretty-form-thumb.jpg",
     stack: "React.js, Typescript, Styled-Components",
@@ -58,7 +58,7 @@ export const projects = [
       "Esse lindo formulário foi para concluir oque eu sei sobre react-hook-form e yup",
   },
   {
-    id: "4",
+    id: "5",
     title: "Netflix Clone",
     stack: "React.js, SASS",
     imageUrl: "netflixclone-thumb.jpg",
@@ -72,7 +72,7 @@ export const projects = [
       "Essa aplicação é um clone do Linkedin, foi usado React e firebase",
   },
   {
-    id: "5",
+    id: "6",
     title: "Linkedin Clone",
     imageUrl: "linkedinclone-thumb.jpg",
     stack: "React.js, Javascript, SASS, Firebase",
@@ -86,7 +86,7 @@ export const projects = [
       "Essa aplicação é um clone do Linkedin, foi usado React e firebase",
   },
   {
-    id: "6",
+    id: "7",
     title: "Moldes mágicos",
     imageUrl: "magic-molds-thumb.jpg",
     stack: "HTML, SASS, Javascript",
@@ -100,7 +100,7 @@ export const projects = [
       "Essa foi uma landing page focada em vendas para o público com mais idade, então o foco foi fazer algo simples. Atualmente o info-produtor deste produto esta tendo um ótimo lucro",
   },
   {
-    id: "7",
+    id: "8",
     title: "Simplesmente Amigurumi",
     imageUrl: "simply-amigurumi-thumb.jpg",
     stack: "HTML, SASS, Javascript",
@@ -114,7 +114,7 @@ export const projects = [
       'Essa Landing Page é focada em vendas dentro e fora do Brasil, foi modernizada como o cliente pediu mas sem deixar de ser simples porquê o público alvo tem mais idade. A Landing Page existe tanto na versão Português como na versão em Espanhol, para alterar apenas clique no link da página retire a rota "/pt" e coloque "/es"',
   },
   {
-    id: "8",
+    id: "9",
     title: "Pacote de moldes",
     imageUrl: "molds-pack-thumb.jpg",
     stack: "HTML, SASS, Javascript",
