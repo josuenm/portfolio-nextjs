@@ -14,6 +14,19 @@ export const projects = [
   //   isFreelance: true,
   // },
   {
+    id: "1",
+    imageUrl: "savage-servidores-thumb.jpg",
+    title: "Savage Servidores",
+    description:
+      "É uma aplicação feita acomodar os jogadores que procuram um ótimo servidor de CSGO. Como o público da página é mais jovem eu foquei em deixar um design moderno e simples ao mesmo tempo. Também o cliente optou por ter o SEO, ou seja, eu precisava usar o Next.js porque se encaixava muito bem ao requisito. O prazo de entrega foi correto e nada saiu fora do esperado, e mesmo se saisse eu já estou habituado para lidar com esse tipo de situação.",
+    stack: "Next.js, Typescript, Framer-Motion, Tailwind, Axios, Context-API",
+    platform: "Web",
+    website: "https://www.savageservidores.com",
+    isFreelance: true,
+    noRepo: "Repositório privado. Entre em contato para mais detalhes",
+    noWebsite: "",
+  },
+  {
     id: "2",
     imageUrl: "purplenotes-thumb.jpg",
     title: "Purple Notes",

@@ -64,6 +64,12 @@ export const ListOfProjects = () => {
 
               <ProjectInfo>
                 <ProjectInfoOption>
+                  <Badge>Platform</Badge>
+                  <ProjectInfoOptionTitle>
+                    {project.platform}
+                  </ProjectInfoOptionTitle>
+                </ProjectInfoOption>
+                <ProjectInfoOption>
                   <Badge>Stack</Badge>
                   <ProjectInfoOptionTitle>
                     {project.stack}
