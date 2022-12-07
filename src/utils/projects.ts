@@ -31,7 +31,7 @@ export const projects = [
   {
     id: "3",
     title: "Dashvelar",
-    imageUrl: "dashvelar.png",
+    imageUrl: "dashvelar-thumb.jpg",
     stack:
       "React.js, Vite, Typescript, Tailwind, Syncfusion, React Router, React Icons",
     website: "https://josuenm-dashvelar.web.app",
@@ -69,7 +69,7 @@ export const projects = [
     noWebsite: "",
     platform: "Web",
     description:
-      "Essa aplicação é um clone do Linkedin, foi usado React e firebase",
+      "Essa aplicação é um clone da Netflix, foi usado React, Javascript e os dados dos filmes e séries foram pegos através do The Movie DB (TMDB)",
   },
   {
     id: "6",
@@ -83,7 +83,7 @@ export const projects = [
     noWebsite: "",
     platform: "Web",
     description:
-      "Essa aplicação é um clone do Linkedin, foi usado React e firebase",
+      "Essa aplicação é um clone do Linkedin, foi usado React, Javascript e firebase",
   },
   {
     id: "7",

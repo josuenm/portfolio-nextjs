@@ -134,7 +134,7 @@ export const ProjectImageContainer = styled.div`
   position: relative;
 
   width: 100%;
-  height: 250px;
+  height: 280px;
   border-radius: 0.25rem;
   overflow: hidden;
   background-color: #454545;
@@ -146,7 +146,7 @@ export const ProjectImageContainer = styled.div`
 
   @media (min-width: 400.99px) and (max-width: 767.98px) {
     width: 100%;
-    height: 250px;
+    height: 280px;
   }
 `;
 
