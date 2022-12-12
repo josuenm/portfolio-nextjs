@@ -47,20 +47,17 @@ export const Description = styled.p`
 
 export const ProfileContainer = styled.div`
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 470px;
   background-color: ${({ theme }) => theme.colors.gray60};
   border: 1px solid ${({ theme }) => theme.colors.gray50};
   border-radius: 0.5rem;
-
-  @media screen and (max-width: 575.98px) {
-    width: 100%;
-    height: 350px;
-  }
 `;
 
 export const ProfileImage = styled(Image)`
   filter: grayscale(100%);
+  border: 1px solid ${({ theme }) => theme.colors.gray50};
+  border-radius: 0.5rem;
 `;
 
 export const LogoBrandImage = styled(Image)`
