@@ -64,7 +64,7 @@ export const AboutMe = () => {
               src={ProfilePicture}
               alt="Profile image"
               width={350}
-              height={470}
+              height={460}
             />
           </ProfileContainer>
         </Content>

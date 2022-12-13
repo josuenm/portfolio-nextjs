@@ -48,14 +48,14 @@ export const Description = styled.p`
 export const ProfileContainer = styled.div`
   position: relative;
   width: 350px;
-  height: 470px;
+  height: 460px;
   background-color: ${({ theme }) => theme.colors.gray60};
   border: 1px solid ${({ theme }) => theme.colors.gray50};
   border-radius: 0.5rem;
 `;
 
 export const ProfileImage = styled(Image)`
-  filter: grayscale(100%);
+  // filter: grayscale(100%);
   border: 1px solid ${({ theme }) => theme.colors.gray50};
   border-radius: 0.5rem;
 `;
