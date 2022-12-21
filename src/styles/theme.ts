@@ -22,6 +22,7 @@ export const theme = {
     gradientGreenNormal: "linear-gradient(180deg, #00FF19 0%, #FFA800 100%)",
 
     blue40: "#3AB8FF",
+    blue40rgba: (opacity: number) => `rgba(58, 184, 255, ${opacity})`,
 
     rose40: "#f700ff",
   },
