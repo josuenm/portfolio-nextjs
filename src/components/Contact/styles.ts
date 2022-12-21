@@ -25,7 +25,7 @@ export const ModalContainer = styled.div`
   max-width: 350px;
   width: 100%;
   border-radius: 0.5rem;
-  background-color: #252525;
+  background-color: #101010;
   color: #fff;
 
   display: flex;
@@ -58,9 +58,10 @@ export const Input = styled.input`
   font-size: 1rem;
   border-radius: 0.25rem;
   border: 1px solid ${({ theme }) => theme.colors.gray50};
+  outline: none;
 
   &:focus {
-    outline: 2px solid ${({ theme }) => theme.colors.blue40};
+    border-color: ${({ theme }) => theme.colors.blue40};
   }
 `;
 
@@ -85,6 +86,26 @@ export const Submit = styled.input.attrs({
   &[disabled] {
     pointer-events: none;
     opacity: 0.3;
+  }
+`;
+
+export const Cancel = styled.button.attrs({
+  type: "button",
+})`
+  color: ${({ theme }) => theme.colors.blue40};
+  background-color: transparent;
+
+  width: 100%;
+  border: 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 0.25rem;
+  font-weight: ${({ theme }) => theme.fontWeights.bold};
+
+  transition: ease 0.4s background-color;
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.blue40rgba(0.2)};
   }
 `;
 

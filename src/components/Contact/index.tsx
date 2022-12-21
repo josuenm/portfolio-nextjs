@@ -6,6 +6,7 @@ import api from "src/services/axios";
 import * as yup from "yup";
 import {
   Background,
+  Cancel,
   Container,
   ErrorMessage,
   Form,
@@ -136,6 +137,7 @@ export function Contact() {
           ) : (
             <Submit value="Enviar" disabled={sendingForm} />
           )}
+          <Cancel onClick={handleClose}>Cancelar</Cancel>
         </Form>
       </ModalContainer>
     </Container>
