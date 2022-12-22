@@ -1,23 +1,15 @@
 import { yupResolver } from "@hookform/resolvers/yup";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import { useForm } from "react-hook-form";
 import { ContactContext, ContactContextType } from "src/contexts/contact";
 import api from "src/services/axios";
 import * as yup from "yup";
 import {
   Background,
-  Cancel,
   Container,
-  ErrorMessage,
-  Form,
-  FormGroup,
   FormSent,
   FormSentMessage,
-  Input,
-  Label,
   ModalContainer,
-  Spinner,
-  Submit,
 } from "./styles";
 
 interface IFormInputs {
@@ -82,6 +74,8 @@ export function Contact() {
     localStorage.getItem("josuenm.form") && setIsSent(true);
   }, []);
 
+  const AnchorRef = useRef<HTMLAnchorElement>(null);
+
   if (isSent) {
     return (
       <Container>
@@ -98,7 +92,32 @@ export function Contact() {
     <Container>
       <Background onClick={handleClose} />
       <ModalContainer>
-        <Form onSubmit={handleSubmit(onSubmit)}>
+        <h3 style={{ marginBottom: 15, fontSize: 20, textAlign: "center" }}>
+          Formulário em manutenção
+        </h3>
+
+        <div style={{ width: "100%" }}>
+          <p style={{ fontSize: 18 }}>Entre em contato via email:</p>
+          <a
+            ref={AnchorRef}
+            href="mailto:direct.josue@gmail.com?subject=Contato via portfolio"
+            style={{ fontSize: 14 }}
+            onMouseOver={() => {
+              if (AnchorRef.current) {
+                AnchorRef.current.style.textDecoration = "underline";
+              }
+            }}
+            onMouseOut={() => {
+              if (AnchorRef.current) {
+                AnchorRef.current.style.textDecoration = "none";
+              }
+            }}
+          >
+            direct.josue@gmail.com
+          </a>
+        </div>
+
+        {/* <Form onSubmit={handleSubmit(onSubmit)}>
           <FormGroup>
             <Label htmlFor="name">Nome:</Label>
             <Input
@@ -138,7 +157,7 @@ export function Contact() {
             <Submit value="Enviar" disabled={sendingForm} />
           )}
           <Cancel onClick={handleClose}>Cancelar</Cancel>
-        </Form>
+        </Form> */}
       </ModalContainer>
     </Container>
   );
