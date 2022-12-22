@@ -27,7 +27,7 @@ const networks = [
     id: 4,
     name: "Currículo",
     message: "Meu novo currículo está disponível para download.",
-    url: "resume.pdf",
+    url: "resume.docx",
     isDownloadable: true,
   },
 ];
