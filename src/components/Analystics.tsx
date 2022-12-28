@@ -14,7 +14,7 @@ export function AnalyticsWrapper() {
       let parser = UAParser(navigator.userAgent);
 
       const res = await axios.get(
-        `https://api.ipgeolocation.io/ipgeo?apiKey=${process.env.GEO_IP_KEYs}`
+        `https://api.ipgeolocation.io/ipgeo?apiKey=${process.env.GEO_IP_KEY}`
       );
 
       if (res.status === 200) {
