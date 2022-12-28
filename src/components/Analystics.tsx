@@ -7,7 +7,6 @@ import { UAParser } from "ua-parser-js";
 export function AnalyticsWrapper() {
   useEffect(() => {
     (async () => {
-      console.log(document.referrer);
       if (process.env.NODE_ENV === "development") {
         return;
       }
@@ -22,6 +21,7 @@ export function AnalyticsWrapper() {
         const data = {
           browser: parser.browser,
           os: parser.os,
+          referrer: document.referrer,
           location: {
             city: res.data.city,
             country: res.data.country_name,
