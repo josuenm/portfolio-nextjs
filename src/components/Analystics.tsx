@@ -7,6 +7,7 @@ import { UAParser } from "ua-parser-js";
 export function AnalyticsWrapper() {
   useEffect(() => {
     (async () => {
+      console.log(document.referrer);
       if (process.env.NODE_ENV === "development") {
         return;
       }
@@ -28,7 +29,7 @@ export function AnalyticsWrapper() {
           },
         };
 
-        await axios.post(`${process.env.BACK_END_URL}/insert`, {
+        await axios.post(`${process.env.ANALYTIC_URL}/insert`, {
           ...data,
         });
       }
