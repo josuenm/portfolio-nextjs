@@ -9,6 +9,7 @@ const nextConfig = {
   },
   env: {
     BACK_END_URL: process.env.BACK_END_URL,
+    GEO_IP_KEY: process.env.GEO_IP_KEY,
   },
 };
 
