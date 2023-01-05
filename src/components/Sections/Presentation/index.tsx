@@ -25,7 +25,7 @@ export function Presentation() {
       <SafeArea>
         <Container id="presentation">
           <TitleContainer>
-            <Title className="first-gradient">Frontend</Title>
+            <Title className="first-gradient">Full-Stack</Title>
             <Title className="second-gradient">Developer</Title>
           </TitleContainer>
 
