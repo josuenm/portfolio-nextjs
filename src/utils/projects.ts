@@ -1,18 +1,18 @@
 export const projects = [
-  // {
-  //   id: "1",
-  //   imageUrl: "validapix-thumb.jpg",
-  //   title: "Valida Pix - Dashboard",
-  //   description:
-  //     "Dashboard usado por franquias da Adidas e Reserva entre outras. O dashboard é apenas um MVP, mas é um belo MVP. Tudo esta fluído e animado sem perder performance. Na tabela de compradores é possível personalizar as colunas da tabela na ordem que quiser, isso foi feito com drag and drop. Os Gráficos foram feitos em React Charts.",
-  //   stack: "ReactJS, Javascript, Tailwind",
-  //   platform: "Web",
-  //   website: "",
-  //   github: "",
-  //   noRepo: "Repositório privado. Entre em contato para mais detalhes",
-  //   noWebsite: "Website privado. Entre em contato para mais detalhes",
-  //   isFreelance: true,
-  // },
+  {
+    id: "0",
+    imageUrl: "validapix-thumb.jpg",
+    title: "Valida Pix - Landing Page",
+    description:
+      "Essa landing page foi feita para a ValidaPix que é uma empresa que traz de forma simples e morderna a validação do pix. Eu desenvolvi desde o MVP do dashboard e agora a landing page.",
+    stack: "HTML, CSS, Tailwind, Javascript",
+    platform: "Web",
+    website: "https://validapix.tech",
+    github: "",
+    noRepo: "Repositório privado",
+    noWebsite: "",
+    isFreelance: true,
+  },
   {
     id: "1",
     imageUrl: "savage-servidores-thumb.jpg",
