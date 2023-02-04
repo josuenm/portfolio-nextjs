@@ -27,6 +27,9 @@ export function MyDevelopment() {
     "SASS",
     "NodeJS",
     "Express",
+    "Tailwind",
+    "MySQL",
+    "Git",
   ];
 
   const secondWords = [
@@ -38,60 +41,10 @@ export function MyDevelopment() {
     "Axios",
     "Mongoose",
     "MongoDB",
-    "React Native (EXPO)",
-  ];
-
-  const technologies = [
-    {
-      id: 1,
-      name: "Javascript",
-      experience: "1 a 2 anos",
-    },
-    {
-      id: 2,
-      name: "Typescript",
-      experience: "1 a 2 anos",
-    },
-    {
-      id: 3,
-      name: "ReactJS",
-      experience: "1 a 2 anos",
-    },
-    {
-      id: 4,
-      name: "React Native",
-      experience: "menos de 1 ano",
-    },
-    {
-      id: 5,
-      name: "NextJS",
-      experience: "menos de 1 ano",
-    },
-    {
-      id: 6,
-      name: "Redux Toolkit",
-      experience: "menos de 1 ano",
-    },
-    {
-      id: 7,
-      name: "SASS",
-      experience: "1 a 2 anos",
-    },
-    {
-      id: 8,
-      name: "NodeJS",
-      experience: "menos de 1 ano",
-    },
-    {
-      id: 9,
-      name: "Express",
-      experience: "menos de 1 ano",
-    },
-    {
-      id: 10,
-      name: "MongoDB",
-      experience: "menos de 1 ano",
-    },
+    "React Native",
+    "TypeORM",
+    "Docker",
+    "PostgreSQL",
   ];
 
   return (
@@ -115,10 +68,11 @@ export function MyDevelopment() {
           </DescriptionText>
 
           <DescriptionText>
-            No meu tempo livre eu e uma equipe estamos desenvolvendo uma
-            aplicação web, backend, mobile usando <span>React.js</span>,{" "}
-            <span>Typescript</span>, <span>Node.js</span>,{" "}
-            <span>React Native</span> e muito mais.
+            No meu tempo livre eu estou desenvolvendo uma aplicação em
+            repositório privado aonde estou usando os princípios do{" "}
+            <span>SOLID</span> e aprendendo muito mais afundo sobre{" "}
+            <span>Electron</span>, <span>Node</span> entre outras techs. Também
+            estou tirando um tempo para aprender mais sobre <span>PHP</span>
           </DescriptionText>
         </DescriptionContainer>
 
