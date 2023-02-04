@@ -14,26 +14,45 @@ const Home: NextPage = () => {
     <Container>
       <Head>
         <meta name="author" content="direct.josue@gmail.com" />
-        <meta name="creator" content="Josué Mendonça" />
+        {/* Primary Meta Tags */}
+        <title>Josué Mendonça | Full-Stack developer</title>
+        <meta name="title" content="Josué Mendonça | Full-Stack developer" />
         <meta
           name="description"
-          content="Josué é um desenvolvedor com brilho nos olhos, que está sempre em busca do próximo nível. Alguns dos seus objetivos é ter um crescimento continuo, impactar a vida das pessoas e construir aplicações de boa qualidade."
+          content="Josué é um desenvolvedor que preza pela qualidade no que faz e esta sempre procurando o mais alto nível. Suas interfaces já impactaram muito gente e continua impactando."
         />
-        <meta name="robots" content="nofollow" />
-        <meta name="googlebot" content="noindex" />
-        <meta httpEquiv="content-language" content="en-us" />
-        <meta httpEquiv="content-type" content="text/html; charset=UTF-8" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="Josué Mendonça" />
-        <meta property="og:title" content="Josué | Front-end Developer" />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://josuenm-portfolio.vercel.app/"
+        />
+        <meta
+          property="og:title"
+          content="Josué Mendonça | Full-Stack developer"
+        />
         <meta
           property="og:description"
-          content="Josué é um desenvolvedor com brilho nos olhos, que está sempre em busca do próximo nível. Alguns dos seus objetivos é ter um crescimento continuo, impactar a vida das pessoas e construir aplicações de boa qualidade."
+          content="Josué é um desenvolvedor que preza pela qualidade no que faz e esta sempre procurando o mais alto nível. Suas interfaces já impactaram muito gente e continua impactando."
         />
-        <meta property="og:site_name" content="Josué Mendonça" />
-        <meta property="og:image" content="/page_thumb.png" />
+        <meta property="og:image" content="/images/social-image.jpg" />
 
-        <title>Josué Mendonça | Front-end developer</title>
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://josuenm-portfolio.vercel.app/"
+        />
+        <meta
+          property="twitter:title"
+          content="Josué Mendonça | Full-Stack developer"
+        />
+        <meta
+          property="twitter:description"
+          content="Josué é um desenvolvedor que preza pela qualidade no que faz e esta sempre procurando o mais alto nível. Suas interfaces já impactaram muito gente e continua impactando."
+        />
+        <meta property="twitter:image" content="/images/social-image.jpg" />
       </Head>
 
       <Header />
