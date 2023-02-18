@@ -33,10 +33,10 @@ export const projects = [
     description:
       "É uma aplicação full-stack para anotações. Você pode acessar de qualquer lugar porque fica tudo salvo na nuvem!",
     stack:
-      "Typescript, Javascript, Next.js, React Native, Chakra-UI, Native-base, Node.js, Express, MongoDB",
-    platform: "Web, Mobile",
-    website: "https://purplenotes.vercel.app",
-    github: "https://github.com/josuenm/purplenotes-front-end",
+      "Next.js, Typescript, Framer-motion, Node.js, Express.js, Mongoose, MongoDB, Docker, Vercel, Railway",
+    platform: "Web",
+    website: "https://dashboard-purplenotes.vercel.app",
+    github: "https://github.com/josuenm/purplenotes-web-3.0",
     isFreelance: false,
     noRepo: "",
     noWebsite: "",
