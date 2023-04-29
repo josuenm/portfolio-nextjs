@@ -47,6 +47,9 @@ export const AboutMe = () => {
               jeito. Hoje em dia já sei muita coisa e consigo ajudar outros
               desenvolvedores que estão na área.
             </Description>
+            <Description>
+              Atualmente trabalho como programador <span>PHP</span> na VochTech.
+            </Description>
           </Info>
 
           <ProfileContainer>

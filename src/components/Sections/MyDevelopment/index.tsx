@@ -68,11 +68,10 @@ export function MyDevelopment() {
           </DescriptionText>
 
           <DescriptionText>
-            No meu tempo livre eu estou desenvolvendo uma aplicação em
-            repositório privado aonde estou usando os princípios do{" "}
-            <span>SOLID</span> e aprendendo muito mais afundo sobre{" "}
-            <span>Electron</span>, <span>Node</span> entre outras techs. Também
-            estou tirando um tempo para aprender mais sobre <span>PHP</span>
+            Como eu estou trabalhando com <span>PHP</span> e{" "}
+            <span>Laravel</span> eu preciso aprender mais sobre a linguagem e o
+            framework para dominar completamente. No tempo livre além de estudar
+            eu atendo alguns freelas assim que possível.
           </DescriptionText>
         </DescriptionContainer>
 
