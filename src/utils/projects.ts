@@ -1,5 +1,19 @@
 export const projects = [
   {
+    id: "001",
+    imageUrl: "validapix-dashboard-thumb.jpg",
+    title: "Valida Pix - Dashboard",
+    description:
+      "Dashboard usado no caixa e financeiro em várias franquias pelo Brasil como Adidas, Cacau Show, Reserva, Authentic Feet entre outras. Eu criei desde o dashboard do MVP até oque ele é hoje. A solução é focada em validar o pix de forma fácil, rápida, segura e sem deixar de lado a modernidade. Agregar valor no design é agregar valor ao produto.",
+    stack: "React, Javascript, Tailwind",
+    platform: "Web",
+    website: "https://app.validapix.tech",
+    github: "",
+    noRepo: "Repositório privado",
+    noWebsite: "",
+    isFreelance: true,
+  },
+  {
     id: "0",
     imageUrl: "validapix-thumb.jpg",
     title: "Valida Pix - Landing Page",

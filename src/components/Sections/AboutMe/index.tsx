@@ -1,5 +1,5 @@
 import Logo from "src/assets/icons/Logo.svg";
-import ProfilePicture from "src/assets/images/profile.jpg";
+import ProfilePicture from "src/assets/images/profile11.jpg";
 import LogoBrand from "src/assets/rounded_brand.svg";
 import { Checkpoint } from "src/components/Checkpoint";
 import { SafeArea } from "src/components/SafeArea";
@@ -46,6 +46,13 @@ export const AboutMe = () => {
               a cada interface concluída eu reconhecia que eu estava pegando o
               jeito. Hoje em dia já sei muita coisa e consigo ajudar outros
               desenvolvedores que estão na área.
+            </Description>
+            <Description>
+              Meu projeto mais relevante é a <span>ValidaPix</span> aonde criei
+              um dashboard que esta sendo usado por várias franquias pelo Brasil
+              como <span>Adidas</span>,<span>Reserva</span>,{" "}
+              <span>Cacau Show</span> entre outras. Com essas franquias já
+              acomodei milhões em pix de forma super performática no dashboard.
             </Description>
             <Description>
               Atualmente trabalho como programador <span>PHP</span> na VochTech.
