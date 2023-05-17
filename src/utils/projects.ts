@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: "001",
+    id: "12",
     imageUrl: "validapix-dashboard-thumb.jpg",
     title: "Valida Pix - Dashboard",
     description:
@@ -14,7 +14,21 @@ export const projects = [
     isFreelance: true,
   },
   {
-    id: "0",
+    id: "11",
+    imageUrl: "gerador-de-pix-validapix-thumb.jpg",
+    title: "Valida Pix - Gerador de PIX",
+    description:
+      "Essa aplicação foi feita para acomodar os usuários que querem gerar um pix de QR Code ou copia e cola de forma fácil rápida e com QR Code de altissima qualidade que nenhum outro site tem! Minha idéia é futuramente deixar o QR Code totalmente customizável.",
+    stack: "HTML, CSS, Javascript, Tailwind",
+    platform: "Web",
+    website: "https://gerarqrcodepix.validapix.tech",
+    github: "",
+    noRepo: "Repositório privado",
+    noWebsite: "",
+    isFreelance: true,
+  },
+  {
+    id: "10",
     imageUrl: "validapix-thumb.jpg",
     title: "Valida Pix - Landing Page",
     description:
@@ -28,7 +42,7 @@ export const projects = [
     isFreelance: true,
   },
   {
-    id: "1",
+    id: "9",
     imageUrl: "savage-servidores-thumb.jpg",
     title: "Savage Servidores",
     description:
@@ -41,7 +55,7 @@ export const projects = [
     noWebsite: "",
   },
   {
-    id: "2",
+    id: "8",
     imageUrl: "purplenotes-thumb.jpg",
     title: "Purple Notes",
     description:
@@ -56,7 +70,7 @@ export const projects = [
     noWebsite: "",
   },
   {
-    id: "3",
+    id: "7",
     title: "Dashvelar",
     imageUrl: "dashvelar-thumb.jpg",
     stack:
@@ -71,7 +85,7 @@ export const projects = [
       "Lindo dashboard feito de forma totalmente produtiva, os componentes estão funcionais e responsivos!",
   },
   {
-    id: "4",
+    id: "6",
     title: "Pretty Form",
     imageUrl: "pretty-form-thumb.jpg",
     stack: "React.js, Typescript, Styled-Components",
@@ -99,7 +113,7 @@ export const projects = [
       "Essa aplicação é um clone da Netflix, foi usado React, Javascript e os dados dos filmes e séries foram pegos através do The Movie DB (TMDB)",
   },
   {
-    id: "6",
+    id: "4",
     title: "Linkedin Clone",
     imageUrl: "linkedinclone-thumb.jpg",
     stack: "React.js, Javascript, SASS, Firebase",
@@ -113,7 +127,7 @@ export const projects = [
       "Essa aplicação é um clone do Linkedin, foi usado React, Javascript e firebase",
   },
   {
-    id: "7",
+    id: "3",
     title: "Moldes mágicos",
     imageUrl: "magic-molds-thumb.jpg",
     stack: "HTML, SASS, Javascript",
@@ -127,7 +141,7 @@ export const projects = [
       "Essa foi uma landing page focada em vendas para o público com mais idade, então o foco foi fazer algo simples. Atualmente o info-produtor deste produto esta tendo um ótimo lucro",
   },
   {
-    id: "8",
+    id: "2",
     title: "Simplesmente Amigurumi",
     imageUrl: "simply-amigurumi-thumb.jpg",
     stack: "HTML, SASS, Javascript",
@@ -141,7 +155,7 @@ export const projects = [
       'Essa Landing Page é focada em vendas dentro e fora do Brasil, foi modernizada como o cliente pediu mas sem deixar de ser simples porquê o público alvo tem mais idade. A Landing Page existe tanto na versão Português como na versão em Espanhol, para alterar apenas clique no link da página retire a rota "/pt" e coloque "/es"',
   },
   {
-    id: "9",
+    id: "1",
     title: "Pacote de moldes",
     imageUrl: "molds-pack-thumb.jpg",
     stack: "HTML, SASS, Javascript",
