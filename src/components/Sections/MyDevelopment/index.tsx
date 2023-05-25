@@ -18,6 +18,7 @@ import {
 
 export function MyDevelopment() {
   const firstWords = [
+    "Laravel",
     "ReactJS",
     "NextJS",
     "ChakraUI",
@@ -35,16 +36,16 @@ export function MyDevelopment() {
   const secondWords = [
     "Javascript",
     "Typescript",
-    "GSAP",
+    "PHP",
     "React-Hook-Form",
     "Styled-components",
-    "Axios",
     "Mongoose",
     "MongoDB",
     "React Native",
     "TypeORM",
     "Docker",
     "PostgreSQL",
+    "Jquery",
   ];
 
   return (
