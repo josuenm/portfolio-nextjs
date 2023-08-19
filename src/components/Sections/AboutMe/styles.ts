@@ -55,9 +55,7 @@ export const ProfileContainer = styled.div`
 `;
 
 export const ProfileImage = styled(Image)`
-  // filter: grayscale(100%);
-  border: 1px solid ${({ theme }) => theme.colors.gray50};
-  border-radius: 0.5rem;
+  filter: grayscale(100%);
 `;
 
 export const LogoBrandImage = styled(Image)`

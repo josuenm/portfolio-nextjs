@@ -55,7 +55,8 @@ export const AboutMe = () => {
               acomodei milhões em pix de forma super performática no dashboard.
             </Description>
             <Description>
-              Atualmente trabalho como programador <span>PHP</span> na VochTech.
+              Já trabalhei como <span>PHP</span> como CLT por um período de 3
+              meses e agora atuo como freelancer.
             </Description>
           </Info>
 
