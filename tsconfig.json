@@ -16,14 +16,9 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "src/components/*": ["./src/components/*"],
-      "src/pages/*": ["./src/pages/*"],
-      "src/styles/*": ["./src/styles/*"],
-      "src/assets/*": ["./src/assets/*"],
-      "src/utils/*": ["./src/utils/*"],
-      "src/contexts/*": ["./src/contexts/*"]
+      "@src/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }

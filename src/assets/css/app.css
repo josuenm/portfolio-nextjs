@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./_default.css";
+@import "./components/_title-animation.css";
+@import "./components/_scroll.css";
+@import "./components/_auto-scroller.css";
