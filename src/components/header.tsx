@@ -80,27 +80,46 @@ export function Header() {
         )}
       >
         <li className="font-medium text-base text-neutral-300 duration-300 hover:opacity-50">
-          <a href="#presentation" className="block w-full py-6">
+          <a
+            href="#presentation onClick={() => setMobileModal(false)}"
+            className="block w-full py-6"
+          >
             Inicio
           </a>
         </li>
         <li className="font-medium text-base text-neutral-300 duration-300 hover:opacity-50">
-          <a href="#development" className="block w-full py-6">
+          <a
+            href="#development"
+            onClick={() => setMobileModal(false)}
+            className="block w-full py-6"
+          >
             Desenvolvimento
           </a>
         </li>
         <li className="font-medium text-base text-neutral-300 duration-300 hover:opacity">
-          <a href="#aboutMe" className="block w-full py-6">
+          <a
+            href="#aboutMe"
+            onClick={() => setMobileModal(false)}
+            className="block w-full py-6"
+          >
             Sobre mim
           </a>
         </li>
         <li className="font-medium text-base text-neutral-300 duration-300 hover:opacity-50">
-          <a href="#networking" className="block w-full py-6">
+          <a
+            href="#networking"
+            onClick={() => setMobileModal(false)}
+            className="block w-full py-6"
+          >
             Minhas redes
           </a>
         </li>
         <li className="font-medium text-base text-neutral-300 duration-300 hover:opacity">
-          <a href="#projects" className="block w-full py-6">
+          <a
+            href="#projects"
+            onClick={() => setMobileModal(false)}
+            className="block w-full py-6"
+          >
             Projetos
           </a>
         </li>
