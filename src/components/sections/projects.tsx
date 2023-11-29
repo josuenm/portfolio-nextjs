@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Tech Flow Solutions",
     description: "Landing Page da minha Software House",
-    image: "validapix.png",
+    image: "techflow-solutions.png",
     repo: "",
     website: "https://techflowsolutions.com.br",
   },
