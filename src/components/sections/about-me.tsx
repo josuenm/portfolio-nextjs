@@ -30,11 +30,10 @@ export default function AboutMe() {
             </p>
             <p>
               Estou atuando como Desenvolvedor Full-stack na{" "}
-              <Span>ValidaPix</Span> e <Span>Tech Flow Solutions</Span>. E
-              também faço alguns freelas no tempo livre. Acredito que eu posso
-              muito mais e isso só depende de mim, e toda semana eu estou
-              correndo atrás de algo novo, algo que vai ajudar no trabalho ou no
-              meu futuro.
+              <Span>ValidaPix</Span> e <Span>Tech Flow Solutions</Span>.
+              Acredito que eu posso muito mais e isso só depende de mim, e toda
+              semana eu estou correndo atrás de algo novo, algo que vai ajudar
+              no trabalho ou no meu futuro.
             </p>
             <p>
               Vale ressaltar que já trabalhei com <Span>PHP</Span> e{" "}

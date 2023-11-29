@@ -9,10 +9,10 @@ export default function Pitch() {
     >
       <SafeArea className="grid grid-cols-12 gap-4">
         <div className="col-span-12 md:col-span-6">
-          <p className="text-4xl">Entre em contato conosco.</p>
+          <p className="text-4xl">Entre em contato agora.</p>
 
           <p className="text-xl mt-4">
-            Entraremos em contato com você o mais breve possível para falarmos
+            Entrarei em contato com você o mais breve possível para falarmos
             sobre o seu projeto e orçamento
           </p>
         </div>
