@@ -9,7 +9,7 @@ export function Normal({ children, className, ...props }: ButtonProps) {
   return (
     <button
       className={twMerge(
-        "bg-primary text-white font-bold rounded-md px-4 py-2 duration-300 hover:opacity-70",
+        "bg-white text-black font-medium rounded-md text-base md:text-lg md:px-6 px-5 py-3 duration-300 hover:opacity-70 min-w-[200px] l-inline-center-center gap-3",
         className
       )}
       {...props}
@@ -23,7 +23,7 @@ export function Outline({ children, className, ...props }: ButtonProps) {
   return (
     <button
       className={twMerge(
-        "bg-transparent border border-white/20 text-white font-bold rounded-md px-4 py-2 duration-300 hover:opacity-70",
+        "bg-transparent border border-white/20 text-white font-medium rounded-md text-base md:text-lg md:px-6 px-5 py-3 duration-300 hover:opacity-70 min-w-[200px] l-inline-center-center gap-3",
         className
       )}
       {...props}

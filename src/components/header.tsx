@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { twMerge } from "tailwind-merge";
-import { Button, Modal } from ".";
 import { SafeArea } from "./safe-area";
 
 export function Header() {
@@ -56,6 +55,9 @@ export function Header() {
               <a href="#development">Desenvolvimento</a>
             </li>
             <li className="font-medium text-base text-neutral-300 duration-300 hover:opacity-50">
+              <a href="#services">Serviços</a>
+            </li>
+            <li className="font-medium text-base text-neutral-300 duration-300 hover:opacity-50">
               <a href="#aboutMe">Sobre mim</a>
             </li>
             <li className="font-medium text-base text-neutral-300 duration-300 hover:opacity-50">
@@ -64,10 +66,8 @@ export function Header() {
             <li className="font-medium text-base text-neutral-300 duration-300 hover:opacity-50">
               <a href="#projects">Projetos</a>
             </li>
-            <li>
-              <Button.Outline onClick={() => setContactModal(true)}>
-                Entrar em contato
-              </Button.Outline>
+            <li className="font-medium text-base text-neutral-300 duration-300 hover:opacity-50">
+              <a href="#contact">Contato</a>
             </li>
           </ul>
         </SafeArea>
@@ -98,6 +98,15 @@ export function Header() {
         </li>
         <li className="font-medium text-base text-neutral-300 duration-300 hover:opacity">
           <a
+            href="#services"
+            onClick={() => setMobileModal(false)}
+            className="block w-full py-6"
+          >
+            Meus serviços
+          </a>
+        </li>
+        <li className="font-medium text-base text-neutral-300 duration-300 hover:opacity">
+          <a
             href="#aboutMe"
             onClick={() => setMobileModal(false)}
             className="block w-full py-6"
@@ -123,21 +132,16 @@ export function Header() {
             Projetos
           </a>
         </li>
-        <li className="mt-8">
-          <Button.Outline onClick={() => setContactModal(true)}>
-            Entrar em contato
-          </Button.Outline>
+        <li className="font-medium text-base text-neutral-300 duration-300 hover:opacity">
+          <a
+            href="#contact"
+            onClick={() => setMobileModal(false)}
+            className="block w-full py-6"
+          >
+            Contato
+          </a>
         </li>
       </ul>
-
-      <Modal
-        isOpen={contactModal}
-        onClose={() => setContactModal(false)}
-        className="text-center text-lg"
-      >
-        <p className="mb-4">Fomulário estará disponível em breve!</p>
-        <p>Mas pode me enviar um e-mail: direct.josue@gmail.com</p>
-      </Modal>
     </>
   );
 }

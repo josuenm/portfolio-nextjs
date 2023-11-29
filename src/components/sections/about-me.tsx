@@ -30,10 +30,11 @@ export default function AboutMe() {
             </p>
             <p>
               Estou atuando como Desenvolvedor Full-stack na{" "}
-              <Span>ValidaPix</Span>. E também faço alguns freelas no tempo
-              livre. Acredito que eu posso muito mais e isso só depende de mim,
-              e toda semana eu estou correndo atrás de algo novo, algo que vai
-              ajudar no trabalho ou no meu futuro.
+              <Span>ValidaPix</Span> e <Span>Tech Flow Solutions</Span>. E
+              também faço alguns freelas no tempo livre. Acredito que eu posso
+              muito mais e isso só depende de mim, e toda semana eu estou
+              correndo atrás de algo novo, algo que vai ajudar no trabalho ou no
+              meu futuro.
             </p>
             <p>
               Vale ressaltar que já trabalhei com <Span>PHP</Span> e{" "}
@@ -49,7 +50,7 @@ export default function AboutMe() {
         </div>
         <div className="col-span-12 md:col-span-6">
           <Image
-            src="/images/profile1.jpg"
+            src="/images/profile.png"
             width={1000}
             height={1000}
             alt="Foto de perfil"

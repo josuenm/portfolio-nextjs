@@ -19,7 +19,7 @@ export default function Networking() {
         title="Minha rede"
       />
 
-      <p className="text-center text-4xl font-bold mt-24   ">
+      <p className="text-4xl md:text-5xl text-center scroll-animate mt-12">
         Algumas das minhas redes
       </p>
 

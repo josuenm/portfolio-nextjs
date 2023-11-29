@@ -1,8 +1,25 @@
 import { Footer, Header, Section } from "@src/components";
 import type { NextPage } from "next";
 import Head from "next/head";
+import { useEffect } from "react";
 
 const Home: NextPage = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      document.querySelectorAll(".scroll-animate").forEach((el: any) => {
+        const rect = el.getBoundingClientRect();
+        const opacity = rect.bottom / window.innerHeight;
+
+        el.style.transition = "ease .2s opacity";
+        el.style.opacity = opacity < 0.4 ? opacity * 0.5 : 1;
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
       <Head>
@@ -56,11 +73,14 @@ const Home: NextPage = () => {
 
       <Section.Presentation />
       <hr className="border-neutral-900" />
-      <Section.Pitch />
       <Section.Development />
+      <Section.Services />
+      <Section.AboutMe2 />
       <Section.AboutMe />
+      <Section.Pitch />
       <Section.Networking />
       <Section.Projects />
+      <Section.Contact />
 
       <Footer />
     </>

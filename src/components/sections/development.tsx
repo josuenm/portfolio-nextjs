@@ -43,7 +43,7 @@ export default function Development() {
         title="Desenvolvimento"
       />
 
-      <p className="text-center text-4xl font-bold mt-24   ">
+      <p className="text-4xl md:text-5xl text-center scroll-animate mt-12">
         A minha forma de desenvolver
       </p>
 
