@@ -255,6 +255,11 @@
   resolved "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz"
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
+"@types/vanilla-masker@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.npmjs.org/@types/vanilla-masker/-/vanilla-masker-1.2.4.tgz"
+  integrity sha512-xPFAeYZ17SShYAwNeSY2X4GBDbsYIQgLOQv0AmO9F0KO7cdgYIzEiRXdVrxvCGZDGj6LNI4OCM+0riL2PHWX4g==
+
 "@typescript-eslint/parser@^5.21.0":
   version "5.24.0"
   resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.24.0.tgz"
