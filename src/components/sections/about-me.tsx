@@ -49,7 +49,7 @@ export default function AboutMe() {
         </div>
         <div className="col-span-12 md:col-span-6">
           <Image
-            src="/images/profile.png"
+            src="/images/profile.jpeg"
             width={1000}
             height={1000}
             alt="Foto de perfil"
