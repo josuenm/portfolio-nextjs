@@ -6,7 +6,7 @@ export default function Presentation() {
 
   return (
     <SafeArea
-      className="py-48 l-stack-start-center text-center"
+      className="py-36 l-stack-start-center text-center"
       id="presentation"
     >
       <div className="text-[4rem] md:text-[12rem] font-bold md:leading-tight scroll-animate">
