@@ -1,5 +1,4 @@
 import "@src/assets/css/app.css";
-import { AnalyticsWrapper } from "@src/components/analystics";
 import type { AppProps } from "next/app";
 import { useEffect } from "react";
 import { disableReactDevTools } from "src/utils/devTools";
@@ -13,7 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <AnalyticsWrapper />
+      {/* <AnalyticsWrapper /> */}
       <Component {...pageProps} />
     </>
   );
