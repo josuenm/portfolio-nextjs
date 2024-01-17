@@ -12,9 +12,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, []);
 
   return (
-    <AnalyticsWrapper>
+    <>
+      <AnalyticsWrapper />
       <Component {...pageProps} />
-    </AnalyticsWrapper>
+    </>
   );
 }
 
