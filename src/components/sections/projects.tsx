@@ -4,13 +4,13 @@ import { Button, Flag, LucideIcon } from "..";
 import { SafeArea } from "../safe-area";
 
 const projects = [
-  {
-    title: "Tech Flow Solutions",
-    description: "Landing Page da minha Software House",
-    image: "techflow-solutions.png",
-    repo: "",
-    website: "https://techflowsolutions.com.br",
-  },
+  // {
+  //   title: "Tech Flow Solutions",
+  //   description: "Landing Page da minha Software House",
+  //   image: "techflow-solutions.png",
+  //   repo: "",
+  //   website: "https://techflowsolutions.com.br",
+  // },
   {
     title: "ValidaPix Dashboard",
     description:
