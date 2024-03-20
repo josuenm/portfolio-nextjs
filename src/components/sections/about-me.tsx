@@ -18,9 +18,8 @@ export default function AboutMe() {
 
           <div className="text-slate-400 mt-4 text-lg md:text-xl l-stack-start gap-5">
             <p>
-              Tenho 20 anos e moro em <Span>Jacareí - SP</Span>, e comecei na
-              área da programação com 18 anos no ensino médio. Desde de lá tenho
-              evoluido muito.
+              Tenho 21 anos e moro em <Span>Jacareí, SP - Brasil</Span>, e comecei na
+              área da programação com 18 anos no ensino médio. E já estou 3 anos nesse mundo da tecnologia e com uma bagagem gigante.
             </p>
             <p>
               No momento eu utilizo a stack que eu tenho mais habilidade que é{" "}
@@ -30,25 +29,20 @@ export default function AboutMe() {
             </p>
             <p>
               Estou atuando como Desenvolvedor Full-stack como{" "}
-              <Span>freelancer</Span>. Acredito que eu posso muito mais e isso
-              só depende de mim, e toda semana eu estou correndo atrás de algo
-              novo, algo que vai ajudar no trabalho ou no meu futuro.
+              <Span>PJ (Micro Empresa Individual)</Span> para a <Span>ValidaPix</Span>.
             </p>
             <p>
               Vale ressaltar que já trabalhei com <Span>PHP</Span> e{" "}
               <Span>Laravel</Span> como <Span>CLT</Span> presencial.
             </p>
             <p>
-              Falando sobre minha vida pessoal, sou um cara bem simples e que
-              gosta de levar a vida bem humorada. Adoro jogar online e arrancar
-              aquela risada, sair com os amigos e gosto de ter meu momento
-              sozinho também.
+              Em projeto pessoal, momento estou fazendo um <Span>SaaS</Span> que até então só existe 1 no Brasil e poucos no mundo, e estou animado para poder divulgar ele no mercado em breve.
             </p>
           </div>
         </div>
         <div className="col-span-12 md:col-span-6">
           <Image
-            src="/images/profile.jpeg"
+            src="/images/profile2.jpeg"
             width={1000}
             height={1000}
             alt="Foto de perfil"
