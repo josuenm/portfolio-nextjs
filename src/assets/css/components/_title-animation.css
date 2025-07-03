@@ -1,0 +1,53 @@
+.first-gradient {
+  background: linear-gradient(
+    90deg,
+    #0019ff,
+    #00ffd1,
+    #00ffd1,
+    #00ffd1,
+    #0019ff,
+    #0019ff
+  );
+  background-size: 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: FirstGradientAnime 10s linear infinite;
+}
+
+.second-gradient {
+  background: linear-gradient(
+    90deg,
+    #00ffd1,
+    #0019ff,
+    #0019ff,
+    #0019ff,
+    #00ffd1,
+    #00ffd1
+  );
+  background-size: 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: SecondGradientAnime 10s linear infinite;
+}
+
+@keyframes SecondGradientAnime {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
+@keyframes FirstGradientAnime {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}

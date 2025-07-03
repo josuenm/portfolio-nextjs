@@ -1,11 +1,9 @@
+import "@src/assets/css/app.css";
 import type { AppProps } from "next/app";
 import { useEffect } from "react";
-import { AnalyticsWrapper } from "src/components/Analystics";
-import { ContactProvider } from "src/contexts/contact";
-import GlobalStyle from "src/styles/GlobalStyle";
-import { theme } from "src/styles/theme";
 import { disableReactDevTools } from "src/utils/devTools";
-import { ThemeProvider } from "styled-components";
+
+// Feito por Josué Mendonça <direct.josue@gmail.com>
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
@@ -13,13 +11,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, []);
 
   return (
-    <ContactProvider>
-      <ThemeProvider theme={theme}>
-        <GlobalStyle />
-        <Component {...pageProps} />
-        <AnalyticsWrapper />
-      </ThemeProvider>
-    </ContactProvider>
+    <>
+      {/* <AnalyticsWrapper /> */}
+      <Component {...pageProps} />
+    </>
   );
 }
 

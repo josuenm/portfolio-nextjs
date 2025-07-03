@@ -1,0 +1,25 @@
+.auto-scroller {
+  animation: 35s auto-scroll infinite linear;
+}
+
+.auto-scroller-container {
+  @apply relative;
+}
+.auto-scroller-container:hover .auto-scroller {
+  animation-play-state: paused;
+}
+.auto-scroller-container::before {
+  @apply content-[""] absolute top-0 -left-2 md:left-0 w-8 md:w-24 h-full bg-gradient-to-r from-black via-black/50 to-transparent z-10;
+}
+.auto-scroller-container::after {
+  @apply content-[""] absolute top-0 -right-2 md:right-0 w-8 md:w-24 h-full bg-gradient-to-l to-transparent via-black/50 from-black z-10;
+}
+
+@keyframes auto-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
