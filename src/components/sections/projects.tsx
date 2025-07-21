@@ -1,47 +1,35 @@
-import Image from "next/image";
-import Link from "next/link";
 import { Button, Flag, LucideIcon } from "..";
 import { SafeArea } from "../safe-area";
-
 const projects = [
-  // {
-  //   title: "Tech Flow Solutions",
-  //   description: "Landing Page da minha Software House",
-  //   image: "techflow-solutions.png",
-  //   repo: "",
-  //   website: "https://techflowsolutions.com.br",
-  // },
   {
-    title: "ValidaPix Dashboard",
+    title: "ValidaPay",
     description:
-      "Atualmente o melhor sistema de Validação de Pix. Todos os dias valida milhares de pix e foi um projeto grande e muito bem pensado. O backend é aonde se encontra todas as integrações com vários bancos",
-    image: "validapix.png",
-    repo: "",
-    website: "https://app.validapix.tech",
+      "Em desenvolvimento, a ValidaPay é um gateway de pagamento robusto, focado em SaaS e micro SaaS, com uma das taxas mais competitivas do mercado. O projeto é grandioso, pensado para escalar e atender empresas de todos os portes, trazendo inovação e facilidade para integrações de pagamentos recorrentes e únicos.",
+    website: "https://validapix.com.br",
   },
   {
-    title: "ValidaPix Landing Page",
+    title: "ValidaPix",
     description:
-      "Essa é a porta de entrada para a ValidaPix, assim como o dashboard a página inicial não poderia perder a modernidade do melhor sistema de validação de pix",
-    image: "validapix-lp.png",
-    repo: "",
-    website: "https://validapix.tech",
+      "Desenvolvi tanto a primeira versão quanto a nova versão estável do ValidaPix, um sistema de pagamentos instantâneos com integrações bancárias avançadas. Trabalhei diretamente com APIs dos principais bancos do Brasil, garantindo segurança, estabilidade e performance para grandes volumes de transações.",
+    website: "https://validapix.com.br",
+  },
+  {
+    title: "Essent Agro",
+    description:
+      "Participei do desenvolvimento do sistema Essent Agro, uma plataforma voltada para o agronegócio. Atuei por alguns meses implementando funcionalidades essenciais para a gestão e automação de processos agrícolas, contribuindo para a modernização do setor.",
+    website: "https://essentagro.com.br",
+  },
+  {
+    title: "Sindicante Digital",
+    description:
+      "Trabalhei por alguns meses no desenvolvimento do Sindicante Digital, um sistema inovador para seguradoras. A plataforma reúne e analisa dados de sinistros, auxiliando na tomada de decisão sobre pagamentos de seguros em casos de acidentes, tornando o processo mais ágil e confiável.",
+    website: "https://sindicantedigital.com",
   },
   {
     title: "Savage Servidores",
     description:
-      "Esse é o maior sistema de servidores de CSGO da america latina! Além do site ter um visual moderno e fácil de interagir, ele conta com uma parte interna para os admins! Nessa parte interna é tem um console/terminal para controlar o servidor, além disso tem informações como consumo de RAM, disco e internet",
-    image: "savage-servidores.png",
-    repo: "",
+      "Savage Servidores é um sistema integrado com CSGO, focado no gerenciamento de servidores de jogos. Desenvolvi funcionalidades para administração via console, automação de tarefas e integração com a comunidade gamer, proporcionando uma experiência completa e eficiente para administradores e jogadores.",
     website: "https://savageservidores.com",
-  },
-  {
-    title: "Sindicante Digital - Dashboard",
-    description:
-      "O Sindicante Digital é um sistema voltado para empresas de seguros e imobiliarios. O frontend foi reformado para se adequar as novas features além de ficar mais simples e intuitivo",
-    image: "sindicante-digital.png",
-    repo: "",
-    website: "",
   },
 ];
 
@@ -57,7 +45,25 @@ export default function Projects() {
         Alguns projetos
       </p>
 
-      {projects.map((item, index) => (
+      <div className="grid grid-cols-12 gap-4 w-full">
+        {projects.map((item, index) => (
+          <div className="col-span-12 md:col-span-4 border border-zinc-700 rounded-xl p-4 flex flex-col" key={index}>
+            <p className="text-2xl font-bold">
+              {item.title}
+            </p>
+
+            <p className="my-8 text-zinc-400">
+              {item.description}
+            </p>
+
+            <Button.Normal className="w-full mt-auto">
+              Visitar <LucideIcon name="ArrowRight" />
+            </Button.Normal>
+          </div>
+        ))}
+      </div>
+
+      {/* {projects.map((item, index) => (
         <div
           key={index}
           className="relative bg-black/20 backdrop-blur-3xl border border-white/20 w-full p-8 grid grid-cols-12 gap-4 rounded-xl scroll-animate"
@@ -108,7 +114,7 @@ export default function Projects() {
             />
           </div>
         </div>
-      ))}
+      ))} */}
 
       <p className="text-4xl md:text-5xl text-neutral-400 text-center scroll-animate">
         Entre outros desenvolvimentos

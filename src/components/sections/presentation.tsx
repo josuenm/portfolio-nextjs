@@ -15,7 +15,7 @@ export default function Presentation() {
       </div>
       <p className="text-slate-400 mt-8 max-w-2xl w-full text-xs md:text-base scroll-animate">
         Neste portfolio vou mostrar um pouco da minha vida na área da
-        programação falando sobre mim e sobre como trabalho
+        tecnologia falando sobre mim e sobre como trabalho
       </p>
       <div className="mt-8 l-stack-start md:l-inline-center-center gap-4 md:gap-12 scroll-animate">
         <a href="#contact">

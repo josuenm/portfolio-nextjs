@@ -24,8 +24,7 @@ export default function Contact() {
             Contato
           </p>
           <p className="text-2xl md:text-3xl max-w-sm text-neutral-400 mt-4">
-            Estou disponível <span className="text-white">todos os dias</span>{" "}
-            das <span className="text-white">8h até 00:00</span>
+            Entre em contato e tire todas suas dúvidas
           </p>
         </div>
         <div className="col-span-12 md:col-span-6 md:l-inline-end">
@@ -87,7 +86,7 @@ export default function Contact() {
                 </p>
                 <p className="text-center">
                   Clique no email a seguir, ou copie e cole no seu serviço de
-                  email e envie-nos um email:{" "}
+                  email e envie-me um email:{" "}
                   <Link
                     href="mailto:direct.josue@gmail.com"
                     target="_blank"

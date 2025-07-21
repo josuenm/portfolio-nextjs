@@ -51,11 +51,7 @@ export default function Development() {
         <div className="col-span-12 md:col-span-6 l-stack-start gap-4 md:gap-12">
           <div className="l-stack-start gap-4 text-start order-2 md:order-1">
             <p className="text-slate-400">
-              Atualmente estou usando o{" "}
-              <Span className="text-primary">Ubuntu 20.04</Span> que é a mesma
-              máquina de produção de todos sistemas que eu crio. Utilizo também
-              um notebook gamer que me auxilia demais com um processador forte.
-              No momento utilizo 2 monitores.
+              Tenho domínio em <Span>JavaScript</Span> e <Span>TypeScript</Span>, que são minhas principais linguagens para desenvolvimento web e mobile. Estou sempre aberto a aprender e trabalhar com outras linguagens conforme a necessidade dos projetos.
             </p>
           </div>
 
@@ -71,44 +67,29 @@ export default function Development() {
         <div className="col-span-12 md:col-span-6 l-stack-start gap-4 md:gap-12">
           <div className="l-stack-start gap-4 text-start">
             <p className="text-slate-400">
-              Estou trabalhando na <Span>ValidaPix</Span> como Desenvovledor
-              Full-stack. Mas estou disponível para projetos de freela!
+              Estou trabalhando na <Span>ValidaPix/ValidaPay</Span> como Desenvovledor
+              full-stack trabalhando em novos projetos com meios de pagamento.
             </p>
           </div>
 
           <div className="l-stack-start gap-4 text-start">
             <strong className="text-2xl">Front-end</strong>
             <p className="text-slate-400">
-              No frontend web eu foco primeiro na proposta, se eu preciso
-              construir uma landing page simples eu uso tecnologias simples como
-              apenas <Span>HTML</Span>, <Span>CSS</Span>, <Span>Tailwind</Span>{" "}
-              e <Span>Javascript</Span>. Em projetos mais elaborados e grande
-              eu prefiro usar <Span>Typescript</Span>,{" "}
-              <Span>React</Span> com <Span>Vite</Span>, e se precisar do{" "}
-              <Span>SEO</Span> eu utilizo o <Span>Next.js</Span>. Para deploy
-              utilizo o <Span>EC2</Span> da <Span>AWS</Span>, <Span>Vercel</Span> ou outro da prefêrencia do cliente.
+            No front-end, tenho experiência principalmente com <Span>React</Span> e <Span>Next.js</Span>, utilizando <Span>TypeScript</Span> e <Span>JavaScript</Span> para criar interfaces modernas e performáticas. Utilizo <Span>Tailwind CSS</Span> para estilização, mas também já trabalhei com <Span>Bootstrap</Span> e <Span>jQuery</Span> em projetos anteriores. Além disso, tenho experiência com <Span>React Native</Span> para mobile e <Span>Electron</Span> para aplicações desktop, sempre buscando aplicar boas práticas e garantir uma ótima experiência do usuário.
             </p>
           </div>
 
           <div className="l-stack-start gap-4 text-start">
             <strong className="text-2xl">Back-End</strong>
             <p className="text-slate-400">
-              No backend utilizo <Span>Node</Span> com <Span>Express</Span> ou <Span>Nest</Span>. Faço
-              sempre o uso do <Span>Typescript</Span> e utilizo várias outras
-              boas práticas e sempre adoto a arquitetura limpa com <Span>SOLID</Span>. Em questão de ORM eu já utilizei vários, mas o <Span>Prisma</Span> é meu favorito até então. Também não posso esquecer de documentar a aplicação, porisso utilizo o <Span>Swagger</Span>. Também ja codei em <Span>PHP</Span> e{" "}
-              <Span>Laravel</Span>.
+              No back-end, tenho experiência principalmente com <Span>Node.js</Span> (usando <Span>NestJS</Span> e <Span>Express</Span>) e também já trabalhei com <Span>PHP</Span> usando <Span>Laravel</Span>. Utilizo bancos de dados como <Span>PostgreSQL</Span>, <Span>MySQL</Span>, <Span>DynamoDB</Span> e <Span>MongoDB</Span>. Tenho experiência com arquiteturas de <Span>microserviços</Span>, <Span>serverless</Span> e serviços da <Span>AWS</Span>.
             </p>
           </div>
 
           <div className="l-stack-start gap-4 text-start">
-            <strong className="text-2xl">Mobile e desktop</strong>
+            <strong className="text-2xl">Nuvem</strong>
             <p className="text-slate-400">
-              No mobile eu utilizo <Span>React Native</Span> com o{" "}
-              <Span>Expo</Span>, e como eu acho muito produtivo o{" "}
-              <Span>Tailwind</Span> eu acho legal utilizar o{" "}
-              <Span>Native base</Span>, mas também consigo utilizar com <Span>Styled
-              Components</Span> ou outro modelo de estilização. No Desktop eu
-              utilizo <Span>Electron</Span> junto com <Span>React</Span> e ótimas práticas.
+              Tenho experiência com diversos serviços da <Span>AWS</Span>, como <Span>EC2</Span>, <Span>Lambdas</Span>, <Span>API Gateway</Span>, <Span>RDS</Span>, <Span>DynamoDB</Span>, <Span>SES</Span>, <Span>SNS</Span>, <Span>Cognito</Span>, <Span>Route 53</Span> e <Span>Amplify</Span>, sempre buscando aplicar boas práticas de arquitetura, automação e segurança em nuvem.
             </p>
           </div>
         </div>
