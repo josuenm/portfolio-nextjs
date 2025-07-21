@@ -56,7 +56,10 @@ export default function Projects() {
               {item.description}
             </p>
 
-            <Button.Normal className="w-full mt-auto">
+            <Button.Normal 
+              className="w-full mt-auto" 
+              onClick={() => window.open(item.website, "blank")}
+            >
               Visitar <LucideIcon name="ArrowRight" />
             </Button.Normal>
           </div>

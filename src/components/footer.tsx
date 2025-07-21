@@ -13,7 +13,7 @@ export function Footer() {
           className="mx-auto w-12 mb-8"
         />
 
-        <p className="text-center">2023 - Todos direitos reservados</p>
+        <p className="text-center">2025 - Todos direitos reservados</p>
       </SafeArea>
     </footer>
   );
