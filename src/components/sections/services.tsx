@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <div className="bg-gradient-to-t from-zinc-900 to-zinc-900 w-full my-32 l-stack-start pt-14 scroll-animate">
+    <div className="bg-gradient-to-t from-zinc-900 to-zinc-900 w-full my-32 l-stack-start pt-14">
       <p className="text-4xl md:text-5xl text-center">
         Alguns dos meus serviços
       </p>

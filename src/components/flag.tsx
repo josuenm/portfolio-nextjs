@@ -12,13 +12,13 @@ export function Flag(props: FlagProps) {
       </p>
 
       <div>
-        <div className="w-1 h-24 mx-auto bg-gradient-to-t from-primary to-transparent" />
-        <div className="font-bold l-inline-center-center bg-primary rounded-full w-12 h-12">
+        <div className="w-1 h-24 mx-auto bg-gradient-to-t from-blue-500 to-transparent" />
+        <div className="font-bold l-inline-center-center bg-blue-500 rounded-full w-12 h-12">
           {props.step}
         </div>
       </div>
 
-      <strong className="text-lg md:text-2xl text-primary">
+      <strong className="text-lg md:text-2xl text-blue-500">
         {props.title}
       </strong>
     </div>

@@ -19,7 +19,7 @@ export default function Networking() {
         title="Minha rede"
       />
 
-      <p className="text-4xl md:text-5xl text-center scroll-animate mt-12">
+      <p className="text-4xl md:text-5xl text-center mt-12">
         Algumas das minhas redes
       </p>
 
@@ -30,7 +30,7 @@ export default function Networking() {
         <div className="col-span-12 md:col-span-6 md:border-l border-dashed border-slate-400 md:pl-12">
           <div className="relative l-stack-center-center md:l-stack-start-start gap-3 pb-2 md:pb-8 md:after:content-[''] md:after:absolute after:top-2 after:-left-[54px] md:after:rounded-full after:z-0 md:after:w-3 md:after:h-3 md:after:bg-black md:after:border md:after:border-slate-400">
             <strong className="text-xl">LinkedIn</strong>
-            <Link href="https://linkedin.com/in/josuenm" target="_blank">
+            <Link href="https://linkedin.com/in/josuemendonca" target="_blank">
               <Button.Outline className="w-fit px-20">Visitar</Button.Outline>
             </Link>
 
@@ -50,18 +50,15 @@ export default function Networking() {
               <div className="w-3 h-3 bg-neutral-400 rounded-full -mt-[2px]" />
             </div>
           </div>
-          <div className="relative l-stack-center-center md:l-stack-start-start gap-3 pb-2 md:pb-8 md:after:content-[''] md:after:absolute after:top-2 after:-left-[54px] md:after:rounded-full after:z-0 md:after:w-3 md:after:h-3 md:after:bg-black md:after:border md:after:border-slate-400">
-            <strong className="text-xl">Currículo</strong>
-            <p>Em breve</p>
-          </div>
         </div>
       </div>
 
       <div className="w-full">
         <AutoScroller
           data={[
-            "Essent Agro",
             "ValidaPix",
+            "ValidaPay",
+            "Essent Agro",
             "Sindicante Digital",
             "SavageServidores",
             "SimplismenteAmigurumis",

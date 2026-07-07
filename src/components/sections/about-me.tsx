@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { Flag, SafeArea } from "../";
 
@@ -17,13 +16,10 @@ export default function AboutMe() {
 
         <div className="text-slate-400 mt-4 text-lg md:text-xl l-stack-start gap-5 text-start">
           <p>
-            Tenho 22 anos e iniciei minha trajetória na programação em 2021. Desde então, participei de diferentes projetos, adquirindo experiência em diversas áreas do desenvolvimento.
+            Tenho 23 anos e iniciei minha trajetória profissional em 2021, atuando no desenvolvimento de projetos para diversos segmentos de mercado.
           </p>
           <p>
-            Atualmente, atuo como <Span>PJ</Span> em uma empresa focada em integrações bancárias e soluções de pagamento, onde trabalho como desenvolvedor full-stack.
-          </p>
-          <p>
-            Estou em fase de lançamento de um <Span>SaaS</Span> inovador: um navegador multilogin, pensado para evitar bloqueios e facilitar a gestão de múltiplas contas e identidades online.
+            Meu principal destaque como desenvolvedor foi na <Span>ValidaPix</Span> e <Span>ValidaPay</Span>, produtos nos quais participei desde a concepção do zero. Na <Span>ValidaPix</Span>, liderei o desenvolvimento de diversas integrações bancárias e de outros produtos que compõem o ecossistema da empresa. Já na <Span>ValidaPay</Span>, colaborei ativamente no planejamento e na evolução contínua do gateway de pagamentos, realizando integrações complexas com adquirentes e garantindo a escalabilidade do sistema.
           </p>
         </div>
       </div>
@@ -33,7 +29,7 @@ export default function AboutMe() {
 
 function Span({ children, className, ...props }: SpanProps) {
   return (
-    <span className={twMerge("text-primary", className)} {...props}>
+    <span className={twMerge("text-blue-400", className)} {...props}>
       {children}
     </span>
   );

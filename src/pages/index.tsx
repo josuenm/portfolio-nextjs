@@ -1,25 +1,8 @@
 import { Footer, Header, Section } from "@src/components";
 import type { NextPage } from "next";
 import Head from "next/head";
-import { useEffect } from "react";
 
 const Home: NextPage = () => {
-  useEffect(() => {
-    const handleScroll = () => {
-      document.querySelectorAll(".scroll-animate").forEach((el: any) => {
-        const rect = el.getBoundingClientRect();
-        const opacity = rect.bottom / window.innerHeight;
-
-        el.style.transition = "ease .2s opacity";
-        el.style.opacity = opacity < 0.4 ? opacity * 0.5 : 1;
-      });
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
     <>
       <Head>
@@ -39,11 +22,11 @@ const Home: NextPage = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://josuenm-portfolio.vercel.app/"
+          content="https://josuenm.vercel.app"
         />
         <meta
           property="og:title"
-          content="Josué Mendonça | Full-Stack developer"
+          content="Josué Mendonça | Desenvolvedor Full-Stack"
         />
         <meta
           property="og:description"
@@ -55,7 +38,7 @@ const Home: NextPage = () => {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://josuenm-portfolio.vercel.app/"
+          content="https://josuenm.vercel.app"
         />
         <meta
           property="twitter:title"

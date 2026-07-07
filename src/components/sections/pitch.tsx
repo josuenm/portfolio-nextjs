@@ -4,7 +4,7 @@ import { SafeArea } from "../safe-area";
 export default function Pitch() {
   return (
     <div
-      className="l-stack-start bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-600 py-12 scroll-animate"
+      className="l-stack-start bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-600 py-12"
       id="pitch"
     >
       <SafeArea className="grid grid-cols-12 gap-4">

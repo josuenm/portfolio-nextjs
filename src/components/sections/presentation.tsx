@@ -9,15 +9,15 @@ export default function Presentation() {
       className="py-36 l-stack-start-center text-center"
       id="presentation"
     >
-      <div className="text-[4rem] md:text-[12rem] font-bold md:leading-tight scroll-animate">
+      <div className="text-[4rem] md:text-[12rem] font-bold md:leading-tight">
         <p className="first-gradient">Josué</p>
         <p className="second-gradient -mt-5 md:-mt-12">Mendonça</p>
       </div>
-      <p className="text-slate-400 mt-8 max-w-2xl w-full text-xs md:text-base scroll-animate">
-        Neste portfolio vou mostrar um pouco da minha vida na área da
-        tecnologia falando sobre mim e sobre como trabalho
+      <p className="text-slate-400 mt-8 max-w-2xl w-full text-xs md:text-base">
+        Neste portfolio vou resumir minha vida profissional
+        como desenvolvedor de software
       </p>
-      <div className="mt-8 l-stack-start md:l-inline-center-center gap-4 md:gap-12 scroll-animate">
+      <div className="mt-8 l-stack-start md:l-inline-center-center gap-4 md:gap-12">
         <a href="#contact">
           <Button.Normal
             className="min-w-[200px]"
