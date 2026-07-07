@@ -12,7 +12,6 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      {/* <AnalyticsWrapper /> */}
       <Component {...pageProps} />
     </>
   );
